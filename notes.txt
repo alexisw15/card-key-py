@@ -1,3 +1,26 @@
 start
 
 load log.csv
+
+throw out month column
+
+example given: clocked IN but not OUT 
+
+In this assignment you will be given a (fictious) log from a card-key access system covering a period of two weeks. 
+The log is a TAB Delimited file where each line records the employee number (20 employees), the day, the month, the hour and
+minutes carded IN and the day, the month, and the hour and minutes carded OUT. 
+All data is in integer format using a 24-hour clock. 
+Employees are required to card IN and card OUT each day. 
+Ignore the fact that they work seven days a week, this is not relevant. 
+
+!! If a value for any time has not been recorded it
+will be shown as 0.
+
+
+(look for zeros)
+
+ex. employee 3 on day 4 didn't clock out.
+call this anomaly 1 (notClockedOut)
+
+ex. employee 14 on day 3 didn't clock in
+call this anomaly 2 (notClockedIn)
